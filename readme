@@ -1,0 +1,42 @@
+Aperçu
+Ce projet est une simulation graphique réalisée avec la bibliothèque p5.js. La simulation illustre le comportement de "véhicules"
+qui poursuivent une cible en mouvement tout en évitant des obstacles et en interagissant avec d'autres agents. 
+Les paramètres comme la vitesse et l'accélération peuvent être ajustés dynamiquement, 
+et il est possible d'ajouter des obstacles ou de nouveaux véhicules dans la simulation.
+
+Fonctionnalités
+Poursuite dynamique de la cible :
+Les véhicules poursuivent une cible (contrôlée par la souris) avec des mouvements fluides.
+
+Évitement d'obstacles :
+Les véhicules évitent les collisions avec les obstacles placés sur le canevas.
+
+Comportement d'errance :
+Les véhicules peuvent passer en mode errance aléatoire pour simuler des mouvements naturels.
+
+Paramètres ajustables :
+
+Vitesse maximale : Utilisez le curseur pour contrôler la vitesse maximale des véhicules.
+Force maximale : Utilisez le curseur pour ajuster la force de guidage maximale.
+Contrôles interactifs :
+
+Ajouter des obstacles : Cliquez sur le canevas pour ajouter des obstacles de taille aléatoire.
+Ajouter des véhicules ou changer de comportement : Utilisez des raccourcis clavier .
+Simulation évolutive :
+Augmentez facilement le nombre de véhicules ou d'obstacles pour tester différentes configurations.
+
+Contrôles
+Cible (souris) :
+La cible est représentée par un cercle rouge et suit la position de la souris.
+
+Ajouter un obstacle :
+Cliquez sur le canevas pour ajouter un obstacle à la position de la souris.
+
+Raccourcis clavier :
+
+n : Comportement de poursuite normale vers la cible.
+s : Mode de poursuite séquentielle entre véhicules.
+w : Mode errance aléatoire.
+v : Ajouter un nouveau véhicule à une position aléatoire.
+f : Ajouter un groupe de 10 véhicules alignés avec des vitesses aléatoires.
+d : Activer ou désactiver le mode débogage .
